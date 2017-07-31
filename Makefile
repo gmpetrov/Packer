@@ -1,3 +1,12 @@
+DEBUG = yes
+ifeq ($(DEBUG),yes)
+	CFLAGS=
+	LDFLAGS=
+else
+	CFLAGS=-W -Wall -ansi -pedantic
+	LDFLAGS=
+endif
+
 CC   = gcc
 NASM = nasm
 EXEC = packer

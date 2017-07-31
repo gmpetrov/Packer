@@ -18,7 +18,7 @@ void	fill_file_zero(FILE *file, int size)
 void	generate_elf(t_data *data)
 {
 	int i;
-	char file_name[] = "GMP_GENERATED_FILE";
+	char file_name[] = "||-->packed<--||";
 	FILE *file;
 
 	if ((file = fopen(file_name, "w+b")) == NULL) {

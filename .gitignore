@@ -3,3 +3,5 @@ test
 packer
 echo
 GMP_GENERATED_FILE
+srcs/.obj
+||-->packed<--||
